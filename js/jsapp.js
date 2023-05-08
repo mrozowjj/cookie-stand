@@ -10,7 +10,7 @@ let Seattle = {
     let sales: null;
 
     for(let i = 0; i < hours.length; i++){
-      sales[0] = 
+      sales[i] = Math.floor(Math.random() * (max - min + 1) + min);
     }
 
     return Math.floor(Math.random() * (max - min + 1) + min);
